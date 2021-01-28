@@ -1,6 +1,7 @@
 <html>
 <head>
 <title> Welcom To my Browse </title>
+<link rel = "stylesheet" href = "style1.css">
 </head>
 <style>
         table, th, td {
@@ -113,7 +114,7 @@
 
     </table>
     <p>
-    <button class="button button">Blue</button>
+    <button class="button button">LOG OUT</button>
     <p>click here to logout</p>
 
 </body>
