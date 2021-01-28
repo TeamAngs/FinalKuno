@@ -113,7 +113,7 @@
 
     </table>
     <p>
-    <a href = "logout.php"> logout</a><br>
+    <button class="button button">Blue</button>
     <p>click here to logout</p>
 
 </body>
