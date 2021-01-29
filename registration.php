@@ -5,7 +5,7 @@
     <link rel = "stylesheet" href = "style1.css">
 </head>
 <body>
-<div id="loginbox"> 
+<div id="loginbox1"> 
     <form action = "registration_code.php" method = "post">
         <img src="images/icon.png" class="icon">
             <!-- <p>
