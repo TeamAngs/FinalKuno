@@ -1,33 +1,48 @@
 <html>
 <head>
-    <title> Welcom To my Browse </title>
-    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <title> Dental.io </title>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "style1.css">
 </head>
 <body>
-
-<div id="frm">
-<form action = "registration_code.php" method = "post">
-            <p>
+<div id="loginbox"> 
+    <form action = "registration_code.php" method = "post">
+        <img src="images/icon.png" class="icon">
+            <!-- <p>
                 <label>Username</label>
-                <input type = "text" id = "username" name = "username" required="" />
+                    <input type = "text" id = "username" name = "username" required=""/>
             </p>
             <p>
                 <label>password</label>
                 <input type = "text" id = "pwd" name = "password" required=""/>
             </p>
-            <p>
-                <label>Year/Section</label>
-                <input type = "text" id = "id" name = "YS" required=""/>
-            </p>
-            <p>
-                <label>School ID</label>
-                <input type = "text" id = "id" name = "id" required=""/>
-            </p>
-      <button type="submit" name="register" class="btn btn-primary">Register</button>
-    </div>
-  </div>
-</form>
+          
+            <button type="submit" name="login" class="b btn-primary">Login</button> -->
+        <h1>Registration!</h1>
+        <form >
+        <p>Username</p>
+            <input type="text" id = "username" name="username" placeholder="Enter Username">
+        <p>Password</p>
+            <input type="password" id = "pwd" name="password" placeholder="Enter Password" required="">
+        <p>Course</p>
+            <input type="text" id = "id" name="YS" placeholder="Enter Course"required="">
+        <p>School ID</p>
+            <input type="text" id = "id" name="id" placeholder="Enter Schoo Id" required="">
+        <p>Email</p>
+            <input type="text" id = "id" name="Email" placeholder="Enter Email Address" required="">
+            <input type="submit" name="register" value="register">
+
+        </form>
+    </form>
+  
+    <!-- <div>
+        <form action = "registration.php" method = "post">
+            
+        <button type="submit" name="register" value="Register">Register</button>
+        </form>
+    </div>    -->
+    <!-- <a href="registration.php">Don't have an account?</a> -->
 </div>
 </body>
 </html>
-    
+<!-- ss -->

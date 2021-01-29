@@ -1,6 +1,6 @@
 <?php
 
-    $db = mysqli_connect('localhost','root','salacup123','reservation');
+    $db = mysqli_connect('localhost','root','shimata','reservation');
 
     if (isset($_POST['submit'])){
         $username = mysqli_real_escape_string($db, $_POST['username']);

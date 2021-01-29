@@ -1,30 +1,43 @@
 <html>
 <head>
-    <title> Welcom To my Browse </title>
+    <title> Dental.io </title>
     <meta charset="UTF-8">
     <link rel = "stylesheet" href = "style1.css">
 </head>
 <body>
-<div id="a"> 
+<div id="loginbox"> 
     <form action = "login_code.php" method = "post">
-        <p>
-            <label>Username</label>
-                <input type = "text" id = "username" name = "username" required=""/>
-        </p>
-        <p>
-            <label>password</label>
+        <img src="images/icon.png" class="icon">
+            <!-- <p>
+                <label>Username</label>
+                    <input type = "text" id = "username" name = "username" required=""/>
+            </p>
+            <p>
+                <label>password</label>
                 <input type = "text" id = "pwd" name = "password" required=""/>
-        </p>
+            </p>
           
-        <button type="submit" name="login" class="b btn-primary">Login</button>
+            <button type="submit" name="login" class="b btn-primary">Login</button> -->
+        <h1>Welcome!</h1>
+        <form >
+        <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username" required="">
+        <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password" required="">
+            <input type="submit" name="Login" value="Login">
+            <a href="registration.php">Don't have an account?</a><br>
+            <a href="#">Forget Password</a>
+        </form>
     </form>
   
-    <form action = "registration.php" method = "post">
-        <p>
-            <button type="submit" name="register" class="btn btn-primary">Register</button>
-        </p>
-    </form>   
+    <!-- <div>
+        <form action = "registration.php" method = "post">
+            
+        <button type="submit" name="register" value="Register">Register</button>
+        </form>
+    </div>    -->
+    <!-- <a href="registration.php">Don't have an account?</a> -->
 </div>
 </body>
 </html>
-    
+<!-- ss -->
