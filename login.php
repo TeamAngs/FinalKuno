@@ -1,12 +1,13 @@
 <html>
 <head>
-    <title> Welcom To my Browse </title>
+    <title> Dental.io </title>
     <meta charset="UTF-8">
     <link rel = "stylesheet" href = "style1.css">
 </head>
 <body>
 <div id="loginbox"> 
     <form action = "login_code.php" method = "post">
+    <img src="images/icon.png" class="icon">
         <p>
             <label>Username</label>
                 <input type = "text" id = "username" name = "username" required=""/>
