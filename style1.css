@@ -1,10 +1,10 @@
-
 body
     {   
         padding: 0;
         margin: 0;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;       
     }
+        /*size of the table*/
 table
     {   
         left: 50%;
@@ -15,10 +15,13 @@ table
         border: 1px solid black;
         box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
     }
+        /*transition*/
 th{
         transition: all .2s ease-in;
         cursor: pointer;
     }
+
+/* format ng table*/
 th,
 td{
         padding: 12px;
@@ -29,6 +32,8 @@ td{
         background-color: white;
         color:  #fff;
     }
+
+    /*color of the header*/
 h1
     {
         font-weight: 600;
@@ -37,6 +42,8 @@ h1
         color:white;
         padding: 10px 0px; 
     }
+
+    /* animation ng table */
 th:hover{
     background-color: seashell;
     transform: scale(1.02);
@@ -48,8 +55,9 @@ th:hover{
         width: 90%;
     }
 }
-.button {
-    background-color: #4CAF50; /* Green */
+    /* css button */
+#ss button {
+    background-color: darkcyan; /* Green */
     border: none;
     color: white;
     padding: 16px 32px;
@@ -61,18 +69,6 @@ th:hover{
     transition-duration: 0.4s;
     cursor: pointer;
   }
-  .button2 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #008CBA;
-  }
-  
-  .button2:hover {
-    background-color: #008CBA;
-    color: white;
-  }
-
- 
 
 
 

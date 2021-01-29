@@ -5,7 +5,10 @@
 </head>
 <style>
         table, th, td {
-        border: 2px solid black;
+        border: 2px solid black;   
+        }
+        body{
+            background-image: url("image/newlogin.jpg");
         }
 </style>
 <body>
@@ -113,9 +116,10 @@
 
 
     </table>
-    <p>
-    <button class="button button">LOG OUT</button>
-    <p>click here to logout</p>
+    <div id = "ss">
+     <form action = "logout.php" method = "post">   
+    <button type="submit" name="" value="logout.php">Logout</button>
+    </div>
 
 </body>
 </html>
