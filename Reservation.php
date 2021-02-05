@@ -7,9 +7,11 @@
         table, th, td {
         border: 2px solid black;   
         }
+        /*
         body{
             background-image: url("image/newlogin.jpg");
         }
+        */
 </style>
 <body>
     <h1> Dental Clinic Reservation </h1>
