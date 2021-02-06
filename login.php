@@ -37,7 +37,6 @@
         </form>
     </div>    -->
     <!-- <a href="registration.php">Don't have an account?</a> -->
-
 </div>
 </body>
 </html>

@@ -2,16 +2,19 @@
 <head>
 <title> Welcom To my Browse </title>
 </head>
-<style>
+<!-- <style>
         table, th, td {
-        border: 2px solid black;
+        border: 1px solid black;
         }
+ -->
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "style1.css">
 </style>
 <body>
     <h1> Dental Clinic Reservation </h1>
 
-    <table style="width:100%">
-    <tr>
+    <table>
+    <tr><!-- table row -->
         <th>Time</th>
         <th>Sunday</th>
         <th>Monday</th>
@@ -23,93 +26,91 @@
     </tr>   
     
     <tr>
-        <th>6:30AM</th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
+        <td>6:30AM</td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
     </tr> 
-
     <tr>
-        <th>8:30AM</th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
+        <td>8:30AM</td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
     </tr> 
 
     <tr> 
-        <th>10:30AM</th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
+        <td>10:30AM</td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
     </tr> 
 
     <tr>
-        <th>12:30PM</th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
+        <td>12:30PM</td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
     </tr> 
 
     <tr>
-        <th>3:30PM</th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
+        <td>3:30PM</td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
     </tr> 
 
     <tr>
-        <th>5:30PM</th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
+        <td>5:30PM</td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
     </tr> 
 
     <tr>
-        <th>7:30PM</th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
+        <td>7:30PM</td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
     </tr> 
 
     <tr>
-        <th>9:30PM</th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
-        <th><a href = "information.php"> Click</a></th>
+        <td>9:30PM</td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
+        <td><a href = "information.php"> Click</a></td>
     </tr> 
-
 
     </table>
     <p>
