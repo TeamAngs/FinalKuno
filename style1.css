@@ -55,7 +55,7 @@ th:hover{
         width: 90%;
     }
 }
-    /* css button */
+    /* logout button */
 #ss button {
     background-color: darkcyan; /* Green */
     border: none;
@@ -73,7 +73,7 @@ th:hover{
   #reserve{
     width: 320px;
     height: 550px;
-    background: rgb(160, 165, 237);
+    background-color: rgb(0, 0, 0, 0.2);
     color: #fff;
     top: 50%;
     left: 50%;
@@ -82,6 +82,12 @@ th:hover{
     box-sizing: border-box;
     padding: 95px 35px;
     border-radius: 20px;
+}
+
+#reserve, body{
+    background-repeat: no repeat;
+    overflow: hidden;
+    background-size: cover;
 }
 /* icon's design */
 .icon{
@@ -112,45 +118,53 @@ h2{
     margin: 10px ;
 
 }
-#reserve input[type="text"], input[type="+639"]{
+#reserve input[type="text"], input[type="+639"]
+{
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
     outline: none;
-    height: 15px;
+    height: 30px;
     color:black;
     font-size: 16px ;
     float: left;
     margin: 0 10px;
 }
-
-#button[type="button"]
-
+/*
+#reserve button[type="button"]
+{
+    padding-left: 5px;
+    outline: none;
+    background: black;
+    color: #333;
+    font-size: 18px;
+    box-sizing: border-box;
+    margin-bottom: 40px
+    }
+*/
+#reserve button
 {
 padding-left:0;
 background-color: #83acf1;
 Letter-spacing: 1px;
 font-weight: bold;
+width: 100px;
+height: 40px;
+border: none;
+outline: none;
+}
+#reserve button:hover, input:hover{
+    box-shadow: 2px 2px 5px #555;
 }
 /*
-{
-    border: 2px darkcyan;
-    padding: 5px;
-    outline: none;
-    height: 40px;
-    background: black;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 20px;
-    
-}
-*/
-
-#reserve input[type="submit"]:hover{
+#reserve input[type="submit"]:hover
+ {
     cursor: pointer;
     background:rgb(130, 212, 250);
     color: #000;
-}
+    box-shadow: 2px 2px 5px #555;
+ */   
+
 
 #reserve a{
     align-content: center;
@@ -164,6 +178,10 @@ font-weight: bold;
     cursor: pointer;
     background-color:rgb(130, 212, 250);
     color: #000;
+}
+
+.Datebox{
+    color: rgb(0, 0, 0, 0);
 }
 
 
