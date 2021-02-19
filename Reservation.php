@@ -11,7 +11,7 @@
     <link rel = "stylesheet" href = "style1.css">
 </style>
 <body>
-    <h1> Dental Clinic Reservation </h1>
+    <h2> Dental Clinic Reservation </h2>
 
     <table>
     <tr><!-- table row -->

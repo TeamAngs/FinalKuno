@@ -119,7 +119,9 @@ table{
     border: 2px solid black;
 }
 
-h1{
+h2{
+    
+    text-align: center;
     box-sizing: border-box;
     background-color: #3587A4;
     overflow: auto;
@@ -132,7 +134,7 @@ h1{
   }
 
   tr {   /*table row */
-    background: #fefcff;
+    background: #f4f7f8;
     border-bottom: 1px solid #FFF;
     margin-bottom: 5px;
   }
