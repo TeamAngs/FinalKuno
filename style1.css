@@ -71,9 +71,9 @@ th:hover{
   }
 /* reservation form design */
   #reserve{
-    width: 320px;
+    width: 450px;
     height: 550px;
-    background-color: rgb(0, 0, 0, 0.2);
+    background-color: rgb(0, 0, 0, 0.1);
     color: #fff;
     top: 50%;
     left: 50%;
@@ -184,6 +184,12 @@ outline: none;
     color: rgb(0, 0, 0, 0);
 }
 
+
+#row{
+    
+    
+
+}
 
 
 
