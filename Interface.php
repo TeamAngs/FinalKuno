@@ -26,8 +26,6 @@
 
 	<div class="about">
 	
-	</div>
-
 
 	</header>
 </body>
