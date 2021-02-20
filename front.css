@@ -4,6 +4,7 @@
 }
 
 .wrapper{
+	background-color:black;
 	width: 1170px;
 	margin: auto;
 }
@@ -11,14 +12,14 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url("img/2.jpg");
+    /* background-image: url("img/2.jpg"); */
     background-size: cover;
     background-position: center;
     font-family: sans-serif;  
 }
 
 header{
-	/* background: url("img/2.jpg"); */
+	background: url("img/2.jpg");
 	height: 100vh;
 	-webkit-background-size:cover;
 	background-size: cover;
@@ -40,13 +41,14 @@ header{
 .nav-area li a{
 	color:#4056A1;
 	text-decoration: none;
+	text-transform: uppercase;
 	padding: 5px 20px;
 	font-family: poppins;
 	font-size: 20px; 
 }
 
 .nav-area li a:hover{
-	background:#4056A1;
+	background:#b2bec3;
 	color:#333;
 }
 
@@ -91,7 +93,7 @@ header{
 }
 
 .welcome-text a:hover{
-	background:#4056A1;
+	background:#b2bec3;
 	color:#333;
 }
 

@@ -7,26 +7,28 @@
 </head>
 <body>
 	<header>
-		<div class="wrapper">
-			<div class="logo">
-				<img src="img/logo.png">
-			</div>
-			<ul class="nav-area">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Help</a></li>
-				<li><a href="#">Contacts</a></li>
-				<li><a href="#">Logout</a></li>
-			</ul>
-		</div>	
-
-		<div class="welcome-text">
-				<h1>Dental.io</h1>
-				<a href="#">Reserve Now</a>
-		</div>
-
-	<div class="about">
-	
-
+        <nav>
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="img/logo.png">
+                </div>
+                <ul class="nav-area">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Logout</a></li>
+                </ul>
+            </div>
+            <div class="welcome-text">
+                    <h1>Dental.io</h1>
+                    <a href="information.php">Reserve Now</a>
+            </div>
+        </nav>	
 	</header>
+
+
+
+
+
 </body>
 </html>
