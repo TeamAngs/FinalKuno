@@ -4,24 +4,8 @@ body{
     background-image: url("images/newlogin.jpg");
     background-size: cover;
     background-position: center;
-    font-family: sans-serif, Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: sans-serif;  
 }
-table
-    {   
-        left: 50%;
-        top: 50%;
-        border-collapse: collapse;
-        width: 800px;
-        height: 200px;
-        border: 1px solid black;
-        box-shadow: 2px 2px 12px rgb(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
-    }
-
-#click
-{
-    color: blue;
-}
-
 #loginbox{
     /* border: solid gray 1pc;
     width: 20%;
@@ -30,9 +14,9 @@ table
     background: pink;
     padding: 50px;  */
 
-    width: 300px;
-    height: 400px;
-    background: rgb(160, 165, 237);
+    width: 320px;
+    height: 420px;
+    background: rgb(154, 158, 231);
     color: #fff;
     top: 50%;
     left: 50%;
@@ -60,181 +44,6 @@ h1{
     text-align: center;
     font-size: 22px;
     color: #000;
-}
-th{
-    transition: all .2s ease-in;
-    cursor: pointer;
-}
-
-/* format ng table*/
-tr {   /*table row */
-    background: #fefcff;
-    border-bottom: 1px solid #FFF;
-    margin-bottom: 5px;
-  }
-  
-  th, td {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    padding: 20px;
-    text-align: center;
-    width: 33.3333%;
-    font-size: 18px;
-  }
-#header{
-    background-color: white;
-    color:  #fff;
-}
-
-/*color of the header*/
-h1
-{
-    font-weight: 600;
-    text-align: center;
-    background-color: darkcyan;
-    color:white;
-    padding: 10px 0px; 
-}
-
-/* animation ng table */
-th:hover{
-background-color: seashell;
-transform: scale(1.02);
-box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2), -1px -1px 8px rgba(0, 0, 0, 0.2);
-}
-/*media query*/
-@media only screen and(max-width: 768px){
-table {
-    width: 90%;
-}
-}
-/* logout button */
-#ss button {
-background-color: darkcyan; /* Green */
-border: none;
-color: white;
-padding: 16px 32px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 16px;
-margin: 4px 2px;
-transition-duration: 0.4s;
-cursor: pointer;
-}
-/* reservation form design */
-#reserve{
-width: 320px;
-height: 550px;
-background-color: rgb(0, 0, 0, 0.2);
-color: #fff;
-top: 50%;
-left: 50%;
-position: absolute;
-transform: translate(-50%,-50%);
-box-sizing: border-box;
-padding: 95px 35px;
-border-radius: 20px;
-}
-
-#reserve, body{
-background-repeat: no repeat;
-overflow: hidden;
-background-size: cover;
-}
-/* icon's design */
-.icon{
-width: 60px;
-height: 60px;
-border-radius: 50%;
-position: absolute;
-top: 20px;
-left: calc(56% - 50px);
-}
-/*h2 design */
-h2{
-margin: 0;
-padding: 0 0 10;
-text-align: center;
-font-size: 22px;
-color: #000;
-}
-/* tag p's design*/
-#reserve p{
-margin: 0;
-padding: 0;
-font-weight: bold;
-color: #000;
-}
-#reserve input{
-width: 90%;
-margin: 10px ;
-
-}
-#reserve input[type="text"], input[type="+639"]
-{
-border: none;
-border-bottom: 1px solid #fff;
-background: transparent;
-outline: none;
-height: 30px;
-color:black;
-font-size: 16px ;
-float: left;
-margin: 0 10px;
-}
-/*
-#reserve button[type="button"]
-{
-padding-left: 5px;
-outline: none;
-background: black;
-color: #333;
-font-size: 18px;
-box-sizing: border-box;
-margin-bottom: 40px
-}
-*/
-#reserve button
-{
-padding-left:0;
-background-color: #83acf1;
-Letter-spacing: 1px;
-font-weight: bold;
-width: 100px;
-height: 40px;
-border: none;
-outline: none;
-}
-#reserve button:hover, input:hover{
-box-shadow: 2px 2px 5px #555;
-}
-/*
-#reserve input[type="submit"]:hover
-{
-cursor: pointer;
-background:rgb(130, 212, 250);
-color: #000;
-box-shadow: 2px 2px 5px #555;
-*/   
-
-
-#reserve a{
-align-content: center;
-text-decoration: underline;
-font-size: 15px;
-line-height: 20px;
-color:black;
-}
-
-#reserve a:hover{
-cursor: pointer;
-background-color:rgb(130, 212, 250);
-color: #000;
-}
-
-.Datebox{
-color: rgb(0, 0, 0, 0);
 }
 /* AFFECTNG ONLY THE H1 TAG INSIDE THE BOX*/
 
@@ -275,7 +84,7 @@ color: rgb(0, 0, 0, 0);
 
 #loginbox input[type="submit"]:hover{
     cursor: pointer;
-    background:rgb(130, 212, 250);
+    background:rgb(147, 207, 235);
     color: #000;
 
 }
@@ -292,87 +101,76 @@ color: rgb(0, 0, 0, 0);
 }
 #loginbox a:hover{
     cursor: pointer;
-    background-color:rgb(130, 212, 250);
+    background-color:rgb(125, 198, 235);
     color: #000;
 }
 
-#loginbox1{
-    /* border: solid gray 1pc;
-    width: 20%;
-    border-radius: 5px;
-    margin: 100px auto;
-    background: pink;
-    padding: 50px;  */
+/* ------------------END OF LOGIN.PHP CSS CODESSSS BY SAID----------------------- */
 
-    width: 330px;
-    height: 450px;
-    background: rgb(160, 165, 237);
-    color: #fff;
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    transform: translate(-50%,-50%);
+/* 
+|
+|
+|
+|
+*/
+
+/* RESERVATION CSS */
+table{
+    border: 2px solid black;
+}
+
+h2{
+    
+    text-align: center;
     box-sizing: border-box;
-    padding: 95px 35px;
-    border-radius: 20px;
-}
+    background-color: #3587A4;
+    overflow: auto;
+    padding: 18px 50px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
 
-#loginbox1 p{
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    color: #000;
-}
-/* AFFECTNG ONLY THE P TAG INSIDE THE BOX*/
-
-#loginbox1 input{
-    width: 90%;
-    margin: 10px ;
-}
-
-#loginbox1 input[type="text"], input[type="password"]{
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 15px;
-    color:black;
-    font-size: 16px ;
-}
-/* login username and password */
-
-#loginbox1 input[type="submit"]{
-    border: none;
-    outline: none;
-    height: 40px;
-    background: black;
-    color: #fff;
+  tr {   /*table row */
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+  }
+  
+  th, td {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    padding: 20px;
+    text-align: center;
+    width: 33.3333%;
     font-size: 18px;
-    border-radius: 20px;
-}
-/* login button */
+  }
 
-#loginbox1 input[type="submit"]:hover{
-    cursor: pointer;
-    background:rgb(130, 212, 250);
-    color: #000;
+  table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: staatic;
+    width: 60%;
+  }
 
-}
-/* login button */
-
-
-#loginbox1 a{
+  #reserve a{
     align-content: center;
     text-decoration: underline;
     font-size: 15px;
     line-height: 20px;
     color:black;
-
 }
-#loginbox1 a:hover{
+
+#reserve a:hover{
     cursor: pointer;
     background-color:rgb(130, 212, 250);
     color: #000;
 }
 
-/* ------------------END OF LOGIN.PHP CSS CODESSSS BY SAID----------------------- */    
+.Datebox{
+    color: rgb(0, 0, 0, 0);
+}

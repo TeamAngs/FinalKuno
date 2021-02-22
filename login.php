@@ -23,7 +23,7 @@
         <h1>Welcome!</h1>
         <form >
         <p>Username</p>
-            <input type="text" name="username" placeholder="Enter Username" required="">
+            <input type="text" name="Email" placeholder="Enter Email" required="">
         <p>Password</p>
             <input type="password" name="password" placeholder="Enter Password" required="">
             <input type="submit" name="Login" value="Login">

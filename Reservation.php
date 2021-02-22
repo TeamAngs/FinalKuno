@@ -1,119 +1,126 @@
 <html>
 <head>
 <title> Welcom To my Browse </title>
-<link rel = "stylesheet" href = "style1.css">
 </head>
-<style>
-        table, th, td {
-        border: 2px solid black;   
-        }
-        /*
-        body{
-            background-image: url("image/newlogin.jpg");
-        }
-        */
-</style>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "reservation.css">
 <body>
-    <h1> Dental Clinic Reservation </h1>
-    <table style="width:100%">
-    <tr>
-        <th>Time</th>
-        <th>Sunday</th>
-        <th>Monday</th>
-        <th>Tuesday</th>
-        <th>Wedneday</th>
-        <th>Thursday</th>
-        <th>Friday</th>
-        <th>Saturday</th>
-    </tr>   
-    
-    <tr>
-        <th>6:30AM</th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-    </tr> 
-    <tr>
-        <th>8:30AM</th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-    </tr> 
-    <tr> 
-        <th>10:30AM</th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-    </tr> 
-    <tr>
-        <th>12:30PM</th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-    </tr> 
-    <tr>
-        <th>3:30PM</th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-    </tr> 
-    <tr>
-        <th>5:30PM</th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-    </tr> 
-    <tr>
-        <th>7:30PM</th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-    </tr> 
-    <tr>
-        <th>9:30PM</th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-        <th><div><a class = "Datebox" href = "information.php"> Click</a></div></th>
-    
-    </tr> 
-    </table>
-    <div id = "ss">
-     <form action = "logout.php" method = "post">  
-    <button type="button" class="btn btn-outline-info">Info</button> 
-    <button type="submit" id="reserve" name = "reserve" value="logout.php">Logout</button>
-    </div>
+    <nav>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="images/logo.png">
+            </div>
+            <ul class="nav-area">
+                <li><a href="interface.php">Home</a></li>
+                <li><a href="Reservation.php">Reservation</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+    </nav>	
+        <h2> Reserved Schedule </h2>
+        <table>
+            <tr><!-- table row -->
+                <th>Time</th>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wedneday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>   
+            <tr>
+                <td>06:30AM</td>
+                <td><?php require_once('reserve_code.php')?></td>
+                <td><?php require_once('reserve_code.php')?></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> 
+        <tr>
+            <td>08:30AM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr> 
+        <tr> 
+            <td>10:30AM</td>
+            <td></td>
+            <td>Reserved</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>12:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>2:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>4:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Reserved</td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>6:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>8:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr> 
+        <tr>
+            <td>10:30PM</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
 </body>
 </html>
-
