@@ -11,11 +11,11 @@ Here, we write code for registration.
 	$pwd = $_POST['password'];
 	$password = MD5($pwd);
 
-	$sql = "INSERT INTO register1 (YS,id,username,Password) VALUES ('$YS','$id','$username','$password')";
+	$sql = "INSERT INTO register (YS,id,username,Password) VALUES ('$YS','$id','$username','$password')";
 	$result = mysqli_query($conn, $sql);
 
 	if($result){
-		header("Location: homealone.php");
+		header("Location: interface.php");
 	}
 
 	else	{

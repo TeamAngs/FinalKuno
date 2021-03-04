@@ -18,6 +18,7 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Help</a></li>
                     <li><a href="#">Contacts</a></li>
+                    <li><a href="#">Schedules</a></li>
                     <li><a href="#">Logout</a></li>
                 </ul>
             </div>

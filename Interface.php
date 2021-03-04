@@ -23,12 +23,9 @@
                     <h1>Dental.io</h1>
                     <a href="information.php">Reserve Now</a>
             </div>
-        </nav>	
+        </nav>
+ 
 	</header>
-
-
-
-
 
 </body>
 </html>

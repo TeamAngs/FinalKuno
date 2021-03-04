@@ -8,16 +8,7 @@
 <div id="loginbox"> 
     <form action = "login_code.php" method = "post">
         <img src="images/icon.png" class="icon">
-            <!-- <p>
-                <label>Username</label>
-                    <input type = "text" id = "username" name = "username" required=""/>
-            </p>
-            <p>
-                <label>password</label>
-                <input type = "text" id = "pwd" name = "password" required=""/>
-            </p>
-          
-            <button type="submit" name="login" class="b btn-primary">Login</button> -->
+
         <h1>Welcome!</h1>
         <form >
         <p>Username</p>
@@ -30,15 +21,8 @@
         </form>
     </form>
   
-    <!-- <div>
-        <form action = "registration.php" method = "post">
-            
-        <button type="submit" name="register" value="Register">Register</button>
-        </form>
-    </div>    -->
-    <!-- <a href="registration.php">Don't have an account?</a> -->
 </div>
 </body>
 </html>
-<!-- ss -->
+
     
