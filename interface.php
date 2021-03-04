@@ -12,9 +12,9 @@
 				<img src="image/logo.png">
 			</div>
 			<ul class="nav-area">
-				<li><a href="#">About</a></li>
-				<li><a href="#">Help</a></li>
-				<li><a href="#">Contacts</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="help.php">Help</a></li>
+				<li><a href="contact.php">Contacts</a></li>
 				<li><a href="#">Logout</a></li>
 			</ul>
 		</div>	
