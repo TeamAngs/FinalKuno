@@ -1,3 +1,15 @@
+<?php
+
+    // Initialize the session
+    session_start();
+
+    // Check if the user is logged in, if not then redirect him to login page
+    if (!isset($_SESSION['loggedIn']) || $_SESSION['loggedIn'] !== true) {
+        header('location: reserve.php');
+        exit;
+    }
+
+?>
 <html>
 <head>
 <title> Welcom To my Browse </title>
@@ -34,9 +46,9 @@
             </tr>   
             <tr>
                 <td>06:30AM</td>
-                <td><?php require_once('reserve_code.php')?></td>
-                <td><?php require_once('reserve_code.php')?></td>
                 <td></td>
+                <td></td>
+                <td><b><?= htmlspecialchars($_SESSION['fname']) ?></td>
                 <td></td>
                 <td></td>
                 <td></td>
@@ -108,7 +120,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td></td>
+            <td><b><?= htmlspecialchars($_SESSION['lname']) ?></td>
             <td></td>
             <td></td>
         </tr> 

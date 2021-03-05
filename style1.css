@@ -60,7 +60,7 @@ h1{
     margin: 10px ;
 }
 
-#loginbox input[type="text"], input[type="password"]{
+#loginbox  input[type="text"], input[type="email"], input[type="password"]{
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -71,18 +71,18 @@ h1{
 }
 /* login username and password */
 
-#loginbox input[type="submit"]{
+#loginbox input[type="submit"],input[type="reset"]{
     border: none;
     outline: none;
     height: 40px;
     background: black;
     color: #fff;
     font-size: 18px;
-    border-radius: 20px;
+    border-radius: 20px;    
 }
 /* login button */
 
-#loginbox input[type="submit"]:hover{
+#loginbox input[type="submit"],input[type="reset"]:hover{
     cursor: pointer;
     background:rgb(147, 207, 235);
     color: #000;
@@ -120,7 +120,6 @@ table{
 }
 
 h2{
-    
     text-align: center;
     box-sizing: border-box;
     background-color: #3587A4;

@@ -1,5 +1,13 @@
 <?php
 
+    session_start();
+
+    // Check if the user is logged in, if not then redirect him to login page
+    if (!isset($_SESSION['loggedIn']) || $_SESSION['loggedIn'] !== true) {
+        header('location: Reservation.php');
+        exit;
+    }
+    
     $db = mysqli_connect('localhost','root','shimata','reservation');
     
     if (isset($_POST['submit'])){
@@ -12,9 +20,12 @@
 
         $query = mysqli_query($db, "INSERT INTO res(fname,lname,phone,detail,time,date) VALUE ('$fname','$lname','$phone','$detail','$time','$date')");
         if($query){
-            $_SESSION['success'] = "Your Reservation hab been submitted";
-            $_SESSION['id'] = $db->inser_id;
-            header('location: reservation.php');
+            
+            $_SESSION['loggedIn'] = true;
+            $_SESSION['id'] = $id;
+            $_SESSION['fname'] = $fname;
+            $_SESSION['lname'] = $lname;
+            header('location: Reservation.php');
             exit();
 
             }

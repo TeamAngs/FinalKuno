@@ -6,6 +6,6 @@ $conn = mysqli_connect("localhost","root","shimata","company");
 
 if(!$conn)
 {
-	echo "Database connection faild...";
+	echo "Database connection failed...";
 }
 ?>

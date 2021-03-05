@@ -1,70 +1,135 @@
+<?php
+
+    // Initialize the session
+    session_start();
+
+    // Check if the user is logged in, if not then redirect him to login page
+    if (!isset($_SESSION['loggedIn']) || $_SESSION['loggedIn'] !== true) {
+        header('location: reserve.php');
+        exit;
+    }
+
+?>
+<!DOCTYPE html>
 <html>
+<title>Information</title>
 <head>
-    <title> Welcom To my Browse </title>
-    <link rel = "stylesheet" type = "text/css" href = "style1.css">
-    <link rel="stylesheet" href="front.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+}
+* {
+  box-sizing: border-box;
+}
+/* Add padding to containers */
+.container {
+  padding: 46px;
+  background-color: white;
+}
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+/* Set a style for the submit button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.reset {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.registerbtn:hover {
+  opacity: 1;
+}
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+</style>
 </head>
 <body>
-<header>
-	<nav>
-        <div class="wrapper">
-            <div class="logo">
-                <img src="images/logo.png">
-            </div>
-            <ul class="nav-area">
-                <li><a href="interface.php">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Logout</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>   
-<div id="loginbox"> 
-    <form action = "reserve.php" method = "post">
-        <img src="images/icon.png" class="icon"> 
-            <form>  
-                <label>First Name</label>
-                    <input type = "text" id = "username" name = "fname" placeholder="Enter Your Name" required="" />
-                <label>Last Name</label>    
-                    <input type = "text" id = "username" name = "lname" placeholder="Enter Last Name" required="" />
-                <label>Phone Number</label>
-                    <input type = "text" id = "phone" name = "phone" placeholder="Phone Number" required="" />             
-                <label>Details</label>
-                <p>
-                    <textarea name ="detail" placeholder = "Input Something" rows = "5" required=""> </textarea>
-                </p>
-                <div class="row">
-                <label>Select Time:</label><br>
-                    <select name="time" id="time" class="InputBox">
-                        <option value="" disabled selected>Time</option>
-                        <option>06:30 AM</option>
-                        <option>08:30 AM</option>
-                        <option>10:30 PM</option>
-                        <option>12:30 PM</option>
-                        <option>02:30 PM</option>
-                        <option>04:30 PM</option>
-                        <option>06:30 PM</option>
-                        <option>08:30 PM</option>
-                        <option>10:30 PM</option>
-                    </select>
-                </div>
-                <div class="row">
-                <label>Select Date:</label><br>
-                    <select name="date" id="date" class="InputBox">
-                        <option value="" disabled selected>Date</option>
-                        <option>Monday</option>
-                        <option>Tuesday</option>
-                        <option>Wednesday</option>
-                        <option>Thursday</option>
-                        <option>Friday</option>
-                        <option>Saturday</option>
-                    </select>
-                </div>
-            <br><button type="submit" name="submit" >submit</button>
-        </form>
-    </form>
-</div>
+<form action="reserve.php" method = "post">
+  <div class="container">
+    <h1>Welcome!</h1>
+    <p>Please fill in this form for reservation.</p>
+    <hr>
+    <label for="username"><b>FirstName</b></label>
+    <input type="text" placeholder="Enter First Name" name="fname" id="username" required="">
+    <label for="username"><b>LastName</b></label>
+    <input type="text" placeholder="Enter First Name" name="lname" id="username" required="">
+    <label for="phonum"><b>Phone Number</b></label>
+    <input type="text" placeholder="Enter Phone Number" name="phone" id="phonum" required="">
+    <label for="yrsec"><b>Type of Procedure</b></label>
+    <input type="text" placeholder=" Enter Type of Procedure you want" name="detail" id="YS">
+  
+    <label for="selecttime"><b>Select Time</b></label><br>
+      <select name = "time">
+        <option value="" disabled selected>Time</option>
+        <option>7:30 AM</option>
+        <option>10:30 AM</option>
+        <option>12:30 PM</option>
+        <option>1:30 PM</option>
+        <option>3:30 PM</option>
+        <option>5:30 PM</option>
+        <option>8:30 PM</option>
+        <option>9:30 PM</option>
+        <option>10:30 PM</option>
+      </select>
+            
+    <br>
+    <br>
+    <br>  
+    <label for="date"><b>Select Date</b></label><br>
+      <select name = "date">
+        <option type="" placeholder="" value="" disabled selected>Date</option>
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednesday</option>
+        <option>Thursday</option>
+        <option>Friday</option>
+        <option>Saturday</option>
+      </select>
+    <hr>
+    <button type="submit" class="registerbtn" name = "submit"> Reserve  </button>
+    <button type="reset" class="reset" > Reset  </button>
+  </div>
+  
+</form>
 </body>
 </html>
