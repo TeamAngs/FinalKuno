@@ -18,13 +18,10 @@ h2{
 	font-family: broadway;
 
 }
-
 .transbox h3 {
 	text-align: center;
 	background: white;
 }
-
-
 .transbox {
 	margin: 20px;
     width: 50%;
@@ -37,24 +34,23 @@ h2{
  </style>
 </head>
 <body>
-    <div class="logo">
-        <img src="images/logo.png" class="logo">
-    </div>
+  <div class="logo">
+    <img src="images/logo.png" class="logo">
+  </div>
     <ul class="nav-area">
-        <li><a href="interface.php">Home</a></li>
-        <li><a href="Reservation.php">Schedule</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="help.php">Help</a></li>
-        <li><a href="contact.php">Contacts</a></li>
-        <li><a href="login.php">Logout</a></li>
+      <li><a href="interface.php">Home</a></li>
+      <li><a href="Reservation.php">Schedule</a></li>
+      <li><a href="about.php">About</a></li>
+      <li><a href="help.php">Help</a></li>
+      <li><a href="contact.php">Contacts</a></li>
+      <li><a href="login.php">Logout</a></li>
     </ul><br><br><br><br><br><br><br><br><br>
-				<h2>About</h2>
-		<div class="transbox">	
-            <h3>Dental.io's online reservation system the online dental reservation system allows the system administrator
+			<h2>About</h2>
+		  <div class="transbox">	
+        <h3>Dental.io's online reservation system the online dental reservation system allows the system administrator
 				to access and manage the database online, pull data quickly, and generate powerful information directly
 				from the online reservation system, making it the most convenient way to find the most up-to-date information. 
 				They simply go to the system as they would any other Web site.
-            </h3>
-	
+        </h3>
 </body>
 </html>

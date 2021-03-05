@@ -13,7 +13,6 @@
 	if($result){
 		header("Location: login.php");
 	}
-
 	else{
 	echo "Error :".$sql;
 	}

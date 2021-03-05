@@ -32,7 +32,6 @@
     <input type="text" placeholder="Enter Phone Number" name="phone" id="phonum" required="">
     <label for="yrsec"><b>Type of Procedure</b></label>
     <input type="text" placeholder=" Enter Type of Procedure you want" name="detail" id="YS">
-  
     <label for="selecttime"><b>Select Time</b></label><br>
       <select name = "time">
         <option value="" disabled selected>Time</option>
@@ -45,11 +44,7 @@
         <option>8:30 PM</option>
         <option>9:30 PM</option>
         <option>10:30 PM</option>
-      </select>
-            
-    <br>
-    <br>
-    <br>  
+      </select><br><br><br>  
     <label for="date"><b>Select Date</b></label><br>
       <select name = "date">
         <option type="" placeholder="" value="" disabled selected>Date</option>
@@ -63,8 +58,7 @@
     <hr>
     <button type="submit" class="registerbtn" name = "submit"> Reserve  </button>
     <button type="reset" class="reset" > Reset  </button>
-  </div>
-  
+  </div> 
 </form>
 </body>
 </html>

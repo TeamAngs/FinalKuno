@@ -66,27 +66,24 @@ h2{
 </head>
 <body>
     <div class="logo">
-        <img src="images/logo.png" class="logo">
+      <img src="images/logo.png" class="logo">
     </div>
     <ul class="nav-area">
-        <li><a href="interface.php">Home</a></li>
-        <li><a href="Reservation.php">Schedule</a></li>
-        <li><a href="about.php">About</a></li>
-        <li><a href="help.php">Help</a></li>
-        <li><a href="contact.php">Contacts</a></li>
-        <li><a href="login.php">Logout</a></li>
-    </ul>
-        <br> <br> <br> <br> <br> <br> 
-        <div class="block">
-            <img src="images/nino.jpg">
-        </div>
-
-        <div class="block">
-            <img src="images/said.jpg">
-        </div>
-
-        <div class="block">
-            <img src="images/april.jpg">
-        </div>            
+      <li><a href="interface.php">Home</a></li>
+      <li><a href="Reservation.php">Schedule</a></li>
+      <li><a href="about.php">About</a></li>
+      <li><a href="help.php">Help</a></li>
+      <li><a href="contact.php">Contacts</a></li>
+      <li><a href="login.php">Logout</a></li>
+    </ul><br><br><br><br><br><br> 
+    <div class="block">
+      <img src="images/nino.jpg">
+    </div>
+    <div class="block">
+      <img src="images/said.jpg">
+    </div>
+    <div class="block">
+      <img src="images/april.jpg">
+    </div>            
 </body>
 </html>

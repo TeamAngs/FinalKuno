@@ -31,6 +31,21 @@ h2{
 
 }
 
+h1{
+    text-align: center;
+	text-decoration: underline;
+	text-shadow:
+		-1px -1px 0 white,
+		 1px -1px 0 white,
+		 -1px 1px 0 white,
+		  1px 1px 0 white;
+	color:#4056A1;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-family: broadway;
+
+}
+
 .transbox h3 {
     color: grey;
 	background: white;
@@ -58,27 +73,25 @@ h2{
 </style>
 </head>
 <body>
-    <div class="logo">
-        <img src="images/logo.png">
-        </div>
-            <ul class="nav-area">
-                <li><a href="interface.php">Home</a></li>
-                <li><a href="Reservation.php">Schedule</a></li>
-                <li><a href="about.php">About</a></li>
-                <li><a href="help.php">Help</a></li>
-                <li><a href="contact.php">Contacts</a></li>
-                <li><a href="login.php">Logout</a></li>
-            </ul>
-        <br><br><br><br><br>  
-        <h2>You are Reserved Now!!</h2>  
+  <div class="logo">
+    <img src="images/logo.png">
+  </div>
+    <ul class="nav-area">
+      <li><a href="interface.php">Home</a></li>
+      <li><a href="Reservation.php">Schedule</a></li>
+      <li><a href="about.php">About</a></li>
+      <li><a href="help.php">Help</a></li>
+      <li><a href="contact.php">Contacts</a></li>
+      <li><a href="login.php">Logout</a></li>
+    </ul><br><br><br><br><br>  
+    <h1>You are Reserved Now!!</h1>  
         <div class="transbox">
-        <h2>Information</h2><br><br>
-        <h3>Name: <b><?= htmlspecialchars($_SESSION['fname']), ($_SESSION['lname'])  ?></h3><br>
-        <h3>Time: <b><?= htmlspecialchars($_SESSION['time']) ?></h3><br>
-        <h3>Date: <b><?= htmlspecialchars($_SESSION['date']) ?></h3><br>
-        <h3>Phone Number: <b><?= htmlspecialchars($_SESSION['phone']) ?></h3><br>
-        <h3>Type of Procedure: <b><?= htmlspecialchars($_SESSION['detail']) ?></h3><br>
-		
+          <h2>Information</h2><br><br>
+          <h3>Name: <b><?= htmlspecialchars($_SESSION['fname']), ($_SESSION['lname'])  ?></h3><br>
+          <h3>Time: <b><?= htmlspecialchars($_SESSION['time']) ?></h3><br>
+          <h3>Date: <b><?= htmlspecialchars($_SESSION['date']) ?></h3><br>
+          <h3>Phone Number: <b><?= htmlspecialchars($_SESSION['phone']) ?></h3><br>
+          <h3>Type of Procedure: <b><?= htmlspecialchars($_SESSION['detail']) ?></h3><br>
         </div>             
 </body>
 </html>
