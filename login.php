@@ -35,7 +35,6 @@ body{
                 <input type="submit" name="Login" value="Login">
             </div>
             <a href="registration.php">Don't have an account?</a><br>
-            <a href="#">Forget Password</a>
         </form>
     </div>
 </body>

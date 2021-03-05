@@ -11,7 +11,7 @@
 	$result = mysqli_query($conn, $sql);
 
 	if($result){
-		header("Location: interface.php");
+		header("Location: login.php");
 	}
 
 	else{

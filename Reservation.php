@@ -17,7 +17,7 @@
     <link rel = "stylesheet" href = "front.css">
 <style>
 h2{
-    margin: 10px;
+    text-align: center;
 	text-decoration: underline;
 	text-shadow:
 		-1px -1px 0 white,
@@ -33,7 +33,6 @@ h2{
 
 .transbox h3 {
     color: grey;
-	text-decoration: underline;
 	background: white;
     
 }
@@ -47,6 +46,15 @@ h2{
     padding: 50px;
     
   } 
+
+  .transbox {
+	margin: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+	background-color: white;
+	border: 5px solid grey;
+  } 
 </style>
 </head>
 <body>
@@ -55,15 +63,16 @@ h2{
         </div>
             <ul class="nav-area">
                 <li><a href="interface.php">Home</a></li>
-                <li><a href="Reservation.php">Reservation</a></li>
+                <li><a href="Reservation.php">Schedule</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="help.php">Help</a></li>
                 <li><a href="contact.php">Contacts</a></li>
-                <li><a href="logout.php#">Logout</a></li>
+                <li><a href="login.php">Logout</a></li>
             </ul>
-        <br>     
+        <br><br><br><br><br>  
+        <h2>You are Reserved Now!!</h2>  
         <div class="transbox">
-        <h2>You are Reserved</h2><br><br>
+        <h2>Information</h2><br><br>
         <h3>Name: <b><?= htmlspecialchars($_SESSION['fname']), ($_SESSION['lname'])  ?></h3><br>
         <h3>Time: <b><?= htmlspecialchars($_SESSION['time']) ?></h3><br>
         <h3>Date: <b><?= htmlspecialchars($_SESSION['date']) ?></h3><br>

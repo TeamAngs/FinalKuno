@@ -14,7 +14,7 @@
 				<img src="images/logo.png">
 			</div>
 			<ul class="nav-area">	
-				<li><a href="Reservation.php">Reservation</a></li>
+				<li><a href="Reservation.php">Schedule</a></li>
 				<li><a href="about.php">About</a></li>
 				<li><a href="help.php">Help</a></li>
 				<li><a href="contact.php">Contacts</a></li>
