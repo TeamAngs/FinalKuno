@@ -17,14 +17,6 @@ body{
     font-family: sans-serif;  
 }
 
-header{
-	/* background: url("img/2.jpg"); */
-	height: 100vh;
-	-webkit-background-size:cover;
-	background-size: cover;
-	background-position: center center;
-	position: relative;
-}
 
 .nav-area{
 	float:right;
@@ -54,8 +46,15 @@ header{
 	width: 275px;
 	float: left;
 	height:auto;
+	
 }
 
+.logo1 img{
+	width: 275px;
+	float: left;
+	height:auto;
+	
+}
 
 .welcome-text{
 	position: absolute;
@@ -106,11 +105,36 @@ header{
 	box-sizing: border-box;
 }
 
+/* --------------------------------------------april azagra  */
 
+h2{
+	text-align: center;
+	text-decoration: underline;
+	text-shadow:
+		-1px -1px 0 white,
+		 1px -1px 0 white,
+		 -1px 1px 0 white,
+		  1px 1px 0 white;
+	color:#4056A1;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: broadway;
 
-p{
-    font-size: 16px;
-	}
-    
-    
+}
+
+.transbox h3 {
+	text-align: center;
+	text-decoration: underline;
+	background: white;
+}
+
+.background {
+	border: 2px solid #4056A1;
+  }
   
+.transbox {
+	margin: 20px;
+	background-color: white;
+	border: 2px solid white;
+	opacity: 0.6;
+  }

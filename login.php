@@ -15,7 +15,6 @@ body{
 </style>
 </head>
 <body>
-<marquee behavior="scroll" direction="left"><img src="//www.html.am/images/html-codes/marquees/fish-swimming.gif" width="94" height="88" alt="Swimming fish" /></marquee>
     <div id="loginbox"> 
         <form action = "login_code.php" method = "post">
             <img src="images/icon.png" class="icon">

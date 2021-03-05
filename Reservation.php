@@ -12,34 +12,64 @@
 ?>
 <html>
 <head>
-<title> Welcom To my Browse </title>
-</head>
+    <title> Welcom To my Browse </title>
     <meta charset="UTF-8">
-    <link rel = "stylesheet" href = "reservation.css">
+    <link rel = "stylesheet" href = "front.css">
+<style>
+h2{
+    margin: 10px;
+	text-decoration: underline;
+	text-shadow:
+		-1px -1px 0 white,
+		 1px -1px 0 white,
+		 -1px 1px 0 white,
+		  1px 1px 0 white;
+	color:#4056A1;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-family: broadway;
+
+}
+
+.transbox h3 {
+    color: grey;
+	text-decoration: underline;
+	background: white;
+    
+}
+.transbox {
+	border: solid gray 1pc;
+    height: 50%;
+    width: 25%;
+    border-radius: 5px;
+    margin: 100px auto;
+    background: white;
+    padding: 50px;
+    
+  } 
+</style>
+</head>
 <body>
-    <nav>
-        <div class="wrapper">
-            <div class="logo">
-                <img src="images/logo.png">
-            </div>
+    <div class="logo">
+        <img src="images/logo.png">
+        </div>
             <ul class="nav-area">
                 <li><a href="interface.php">Home</a></li>
                 <li><a href="Reservation.php">Reservation</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Help</a></li>
-                <li><a href="#">Contacts</a></li>
-                <li><a href="#">Logout</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="help.php">Help</a></li>
+                <li><a href="contact.php">Contacts</a></li>
+                <li><a href="logout.php#">Logout</a></li>
             </ul>
-        </div>
-    </nav>	
-        <h2>You Are Reserved</h2>
-        <h2>Name: <b><?= htmlspecialchars($_SESSION['fname']), ($_SESSION['lname'])  ?></h2>
-        <h2>Time: <b><?= htmlspecialchars($_SESSION['time']) ?></h2>
-        <h2>Date: <b><?= htmlspecialchars($_SESSION['date']) ?></h2>
-        <h2>Phone Number: <b><?= htmlspecialchars($_SESSION['phone']) ?></h2>
-        <h2>Type of Procedure: <b><?= htmlspecialchars($_SESSION['detail']) ?></h2>
-
-            
-            
+        <br>     
+        <div class="transbox">
+        <h2>You are Reserved</h2><br><br>
+        <h3>Name: <b><?= htmlspecialchars($_SESSION['fname']), ($_SESSION['lname'])  ?></h3><br>
+        <h3>Time: <b><?= htmlspecialchars($_SESSION['time']) ?></h3><br>
+        <h3>Date: <b><?= htmlspecialchars($_SESSION['date']) ?></h3><br>
+        <h3>Phone Number: <b><?= htmlspecialchars($_SESSION['phone']) ?></h3><br>
+        <h3>Type of Procedure: <b><?= htmlspecialchars($_SESSION['detail']) ?></h3><br>
+		
+        </div>             
 </body>
 </html>

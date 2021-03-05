@@ -14,19 +14,9 @@
 				<img src="images/logo.png">
 			</div>
 			<ul class="nav-area">	
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Action</a>
-						<a class="dropdown-item" href="#">Another action</a>
-						<a class="dropdown-item" href="#">Something else here</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Separated link</a>
-					</div>
-				</li>
 				<li><a href="Reservation.php">Reservation</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Help</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="help.php">Help</a></li>
 				<li><a href="contact.php">Contacts</a></li>
 				<li><a href="login.php">Logout</a></li>
 			</ul>
