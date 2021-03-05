@@ -19,7 +19,7 @@
 			</ul>
 		</div>	
 		<div class="welcome-text">
-				<h2>CONTACT</h2>
+				<h2>CONTACTS</h2>
         <div class="background">
         <div class="transbox">
 				

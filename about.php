@@ -8,7 +8,7 @@
 <body>
 
 <header>
-
+		
 		<div class="wrapper">
 			<div class="logo">
 				<img src="image/logo.png">
@@ -20,16 +20,17 @@
 				<li><a href="#">Logout</a></li>
 			</ul>
 		</div>	
+		
 		<div class="welcome-text">
 				<h2>ABOUT</h2>
         <div class="background">
         <div class="transbox">
+				
 
-				<h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, ducimus hic iste ab, vitae itaque s
-                    uscipit aliquid alias incidunt explicabo officia perspiciatis! In mollitia iste aut totam dolo
-                    rem officia dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus nostr
-                    um eaque ducimus cum deleniti dolores eligendi aliquid veniam, ipsam, molestias cumque nihil! Ull
-                    am sapiente enim ea consectetur. Est, perferendis tempore?</h3>
+				<h3>Dental.io's online reservation system the online dental reservation system allows the system administrator
+					to access and manage the database online, pull data quickly, and generate powerful information directly
+					from the online reservation system, making it the most convenient way to find the most up-to-date information. 
+					They simply go to the system as they would any other Web site. </h3>
      
 				
 </div>

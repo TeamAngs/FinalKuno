@@ -23,11 +23,11 @@
         <div class="background">
         <div class="transbox">
 				
-                <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam, ducimus hic iste ab, vitae itaque s
-                    uscipit aliquid alias incidunt explicabo officia perspiciatis! In mollitia iste aut totam dolo
-                    rem officia dolorum? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus nostr
-                    um eaque ducimus cum deleniti dolores eligendi aliquid veniam, ipsam, molestias cumque nihil! Ull
-                    am sapiente enim ea consectetur. Est, perferendis tempore?</h3>
+                <h3>Dental.io's helps the patients will save time and effort by not having to wait for an reservation
+					and system administrators will save time by having easier access to information for reporting and
+					managing their reservation forms. The system administrator is responsible for keeping track of the
+					patients' such their as information and records. Patients should be able to find out if a specific
+					date is available.</h3>
 				
 </div>
 </header>
