@@ -1,24 +1,20 @@
-<!--
-Here, we write code for registration.
--->
 <?php
 	require_once('connection.php');
-	$YS = $id = $username = $password = $pwd = '';
+	$Email = $username = $password = $pwd = '';
 
-	$YS = $_POST['YS'];
-	$id = $_POST['id'];
+	$Email = $_POST['Email'];
 	$username = $_POST['username'];
 	$pwd = $_POST['password'];
 	$password = MD5($pwd);
 
-	$sql = "INSERT INTO register (YS,id,username,Password) VALUES ('$YS','$id','$username','$password')";
+	$sql = "INSERT INTO register1 (username,password,Email) VALUES ('$username','$password','$Email')";
 	$result = mysqli_query($conn, $sql);
 
 	if($result){
-		header("Location: interface.php");
+		header("Location: login.php");
 	}
 
-	else	{
+	else{
 	echo "Error :".$sql;
 	}
 ?>

@@ -1,15 +1,14 @@
-/* RESERVATION CSS */
 body{
     margin: 0;
     padding: 0;
-    background-image: url("img/2.jpg");
+    background-image: url("images/2.jpg");
     background-size: cover;
     background-position: center;
     font-family: sans-serif;  
 }
 
 header{
-	background: url("img/2.jpg");
+	background: url("images/2.jpg");
 	height: 100vh;
 	-webkit-background-size:cover;
 	background-size: cover;

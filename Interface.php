@@ -2,30 +2,33 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Dental.io</title>
+	<title>Home</title>
 	<link rel="stylesheet" href="front.css">
+	<link rel="stylesheet" href="front1.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-	<header>
-        <nav>
-            <div class="wrapper">
-                <div class="logo">
-                    <img src="img/logo.png">
-                </div>
-                <ul class="nav-area">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Help</a></li>
-                    <li><a href="#">Contacts</a></li>
-                    <li><a href="#">Logout</a></li>
-                </ul>
-            </div>
-            <div class="welcome-text">
-                    <h1>Dental.io</h1>
-                    <a href="information.php">Reserve Now</a>
-            </div>
-        </nav>
- 
-	</header>
+	<header>	
+		<div class="wrapper">
+			<div class="logo">
+				<img src="images/logo.png">
+			</div>
+			<ul class="nav-area">	
 
+				<li><a href="Reservation.php">Schedule</a></li>
+				<li><a href="about.php">About</a></li>
+				<li><a href="help.php">Help</a></li>
+				<li><a href="help.php">Contacts</a></li>
+				<li><a href="login.php">Logout</a></li>
+			</ul>
+		</div>	
+		
+		<div class="welcome-text">
+				<h1>Dental.io</h1>
+				<a href="information.php">Reserve Now</a>
+		</div>	
+	<div class="about">
+	
+	</header>
 </body>
 </html>

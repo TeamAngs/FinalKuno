@@ -3,12 +3,12 @@ Here, we write code for login.
 -->
 <?php
 	require_once('connection.php');
-	$username = $password = $pwd = '';
+	$Email = $password = $pwd = '';
 
-	$username = $_POST['username'];
+	$Email = $_POST['Email'];
 	$pwd = $_POST['password'];
 	$password = md5($pwd);
-	$sql = "SELECT * from register1 where username='$username' and Password='$password'";
+	$sql = "SELECT * from register1 where Email='$Email' and password='$password'";
 	$result = mysqli_query($conn, $sql);
 	
 		if(mysqli_num_rows($result) > 0){
@@ -16,12 +16,12 @@ Here, we write code for login.
 			while($row = mysqli_fetch_assoc($result)){
 		
 				$id = $row["id"];
-				$username = $row["username"];
+				$username = $row["Email"];
 				session_start();
 				$_SESSION['id'] = $id;
 				$_SESSION['username'] = $username;
 			}
-			header("Location: home.php");
+			header("Location: interface.php");
 		}
 		else{
 	
