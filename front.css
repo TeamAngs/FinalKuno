@@ -56,6 +56,7 @@ header{
 	height:auto;
 }
 
+
 .welcome-text{
 	position: absolute;
 	width: 600px;
@@ -104,3 +105,12 @@ header{
 	padding: 15px;
 	box-sizing: border-box;
 }
+
+
+
+p{
+    font-size: 16px;
+	}
+    
+    
+  

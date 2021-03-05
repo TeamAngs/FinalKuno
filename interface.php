@@ -27,7 +27,7 @@
 				<li><a href="Reservation.php">Reservation</a></li>
 				<li><a href="#">About</a></li>
 				<li><a href="#">Help</a></li>
-				<li><a href="#">Contacts</a></li>
+				<li><a href="contact.php">Contacts</a></li>
 				<li><a href="login.php">Logout</a></li>
 			</ul>
 		</div>	

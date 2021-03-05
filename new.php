@@ -32,12 +32,12 @@
             </ul>
         </div>
     </nav>	
-        <h2>You Are Reserved</h2>
-        <h2>Name: <b><?= htmlspecialchars($_SESSION['fname']), ($_SESSION['lname'])  ?></h2>
+        <h2>Welcome <b><?= htmlspecialchars($_SESSION['fname']), ($_SESSION['lname'])  ?></h2>
         <h2>Time: <b><?= htmlspecialchars($_SESSION['time']) ?></h2>
         <h2>Date: <b><?= htmlspecialchars($_SESSION['date']) ?></h2>
         <h2>Phone Number: <b><?= htmlspecialchars($_SESSION['phone']) ?></h2>
         <h2>Type of Procedure: <b><?= htmlspecialchars($_SESSION['detail']) ?></h2>
+        
 
             
             

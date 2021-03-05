@@ -25,6 +25,10 @@
             $_SESSION['id'] = $id;
             $_SESSION['fname'] = $fname;
             $_SESSION['lname'] = $lname;
+            $_SESSION['time'] = $time;
+			$_SESSION['date'] = $date;
+            $_SESSION['phone'] = $phone;
+            $_SESSION['detail'] = $detail;
             header('location: Reservation.php');
             exit();
 

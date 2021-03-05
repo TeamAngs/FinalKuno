@@ -1,9 +1,17 @@
 <html>
 <head>
-</style>
     <title> Dental.io </title>
     <meta charset="UTF-8">
     <link rel = "stylesheet" href = "style1.css">
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/2.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;  
+}
 </style>
 </head>
 <body>
