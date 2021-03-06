@@ -4,7 +4,6 @@
 	<meta charset="utf-8">
 	<title>Dental.io</title>
 	<link rel="stylesheet" href="front.css">
-	<link rel="stylesheet" href="front1.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>

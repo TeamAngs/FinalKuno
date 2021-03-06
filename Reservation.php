@@ -1,15 +1,3 @@
-<?php
-
-    // Initialize the session
-    session_start();
-
-    // Check if the user is logged in, if not then redirect him to login page
-    if (!isset($_SESSION['loggedIn']) || $_SESSION['loggedIn'] !== true) {
-        header('location: reserve.php');
-        exit;
-    }
-
-?>
 <html>
 <head>
     <title> Welcom To my Browse </title>
@@ -87,11 +75,11 @@ h1{
     <h1>You are Reserved Now!!</h1>  
         <div class="transbox">
           <h2>Information</h2><br><br>
-          <h3>Name: <b><?= htmlspecialchars($_SESSION['fname']), ($_SESSION['lname'])  ?></h3><br>
-          <h3>Time: <b><?= htmlspecialchars($_SESSION['time']) ?></h3><br>
-          <h3>Date: <b><?= htmlspecialchars($_SESSION['date']) ?></h3><br>
-          <h3>Phone Number: <b><?= htmlspecialchars($_SESSION['phone']) ?></h3><br>
-          <h3>Type of Procedure: <b><?= htmlspecialchars($_SESSION['detail']) ?></h3><br>
+          <h3>Name: <b><?= ($_SESSION['fname']), ($_SESSION['lname'])  ?></h3><br>
+          <h3>Time: <b><?= ($_SESSION['time']) ?></h3><br>
+          <h3>Date: <b><?= ($_SESSION['date']) ?></h3><br>
+          <h3>Phone Number: <b><?= ($_SESSION['phone']) ?></h3><br>
+          <h3>Type of Procedure: <b><?= ($_SESSION['detail']) ?></h3><br>
         </div>             
 </body>
 </html>

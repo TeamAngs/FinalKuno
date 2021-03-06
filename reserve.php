@@ -1,11 +1,4 @@
 <?php
-    session_start();
-    // Check if the user is logged in, if not then redirect him to login page
-    if (!isset($_SESSION['loggedIn']) || $_SESSION['loggedIn'] !== true) {
-        header('location: Reservation.php');
-        exit;
-    }
-    
     $db = mysqli_connect('localhost','root','shimata','reservation');
     if (isset($_POST['submit'])){
         $fname = mysqli_real_escape_string($db, $_POST['fname']);
